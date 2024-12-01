@@ -19,4 +19,4 @@
 * `ipTable.json` contains the IP addresses of the nodes in the network.
 * `paramsConfig.json` contains the configuration parameters for the experiment.
 
-## System Execution results
+
