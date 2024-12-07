@@ -15,4 +15,25 @@
 
 
 
+## Usage
+
+
+1. **Purchase Cloud Servers**  
+   Export the public and private IP addresses of each cloud server. The public IPs are used for running the control nodes, while the private IPs are used for communication between nodes.
+
+2. **Run `ip_table_generator.py`**  
+   Set the system scale and run the script to generate the node IP table. This table is used for node-to-node communication and for distributing control nodes across the cloud servers.
+
+3. **Upload the Dataset**  
+   Upload the dataset to the cloud servers.
+
+4. **Contents of the `bin` Directory**  
+   The `bin` directory contains:
+    - The compiled binary executable file, `myapp_linux`.
+    - The system parameter configuration file, `paramsConfig.json`.
+
+5. **Run `ip_table_generator.py`**  
+   Use the control script to manage the startup of nodes on the cloud servers, execute experiments, and download the results.
+
+
 
