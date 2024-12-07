@@ -1,0 +1,23 @@
+{
+  "ConsensusMethod": 3,
+
+  "PbftViewChangeTimeOut":20000,
+
+  "ExpDataRootDir": "expTest",
+
+  "Block_Interval": 1500,
+  "BlockSize": 1000,
+  "InjectSpeed": 4000,
+  "TotalDataSize": 3000000,
+  "TxBatchSize": 10000,
+
+  "BrokerNum": 10,
+  "RelayWithMerkleProof": 0,
+
+  "DatasetFile": "./20250000to20499999_BlockTransaction.csv",
+  "ReconfigTimeGap": 50,
+
+  "Delay": -1,
+  "JitterRange": -1,
+  "Bandwidth":1000000
+}
